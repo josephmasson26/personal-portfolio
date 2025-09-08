@@ -132,7 +132,8 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
-img, ion-icon, a, button, time, span { display: block; }
+img, button, time, span { display: block; }
+ion-icon, .project-item-icon-box a { display: inline-block; vertical-align: middle; }
 
 button {
   font: inherit;
@@ -981,7 +982,6 @@ main {
 
 .project-item-icon-box {
   --scale: 0.8;
-
   background: var(--jet);
   color: var(--orange-yellow-crayola);
   position: absolute;
@@ -996,10 +996,12 @@ main {
   transition: var(--transition-1);
 }
 
-.project-item > a:hover .project-item-icon-box {
+.project-img:hover .project-item-icon-box {
   --scale: 1;
   opacity: 1;
 }
+}
+
 
 .project-item-icon-box ion-icon { --ionicon-stroke-width: 50px; }
 

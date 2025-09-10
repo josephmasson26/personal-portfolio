@@ -320,13 +320,9 @@ main {
 \*-----------------------------------*/
 
 .sidebar {
-  margin-bottom: 30px;
-  max-width: 100%;
-  width: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-  overflow: visible;
+  margin-bottom: 15px;
+  max-height: 112px;
+  overflow: hidden;
   transition: var(--transition-2);
 }
 
@@ -1813,17 +1809,18 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   main {
-  max-width: 900px;
-  margin-inline: auto;
-  display: block;
-  justify-content: initial;
-  align-items: initial;
-  gap: 0;
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
   }
 
   .main-content {
-  width: 100%;
-  margin: 0 auto;
+    min-width: 75%;
+    width: 75%;
+    margin: 0;
   }
 
 

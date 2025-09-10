@@ -305,10 +305,9 @@ article.active {
 \*-----------------------------------*/
 
 main {
-  margin: 30px auto 75px auto;
-  min-width: 320px;
-  max-width: 900px;
-  display: block !important;
+  margin: 15px 12px;
+  margin-bottom: 75px;
+  min-width: 259px;
 }
 
 

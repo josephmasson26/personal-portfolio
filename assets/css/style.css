@@ -303,14 +303,11 @@ article.active {
 /*-----------------------------------*\
   #MAIN
 \*-----------------------------------*/
-
 main {
-  margin: 30px auto 75px auto;
-  min-width: 320px;
-  max-width: 900px;
-  display: block !important;
+  margin: 15px 12px;
+  margin-bottom: 75px;
+  min-width: 259px;
 }
-
 
 
 
@@ -1689,16 +1686,12 @@ textarea.form-input::-webkit-resizer { display: none; }
    * MAIN 
    */
 
-  main {
-    margin-bottom: 60px;
-    display: block !important;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+   main { margin-bottom: 60px; }
+
+
   .main-content {
     position: relative;
-    width: 100%;
+    width: max-content;
     margin: auto;
   }
 

@@ -326,7 +326,7 @@ main {
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 405px;}
 
 .sidebar-info {
   position: relative;
@@ -343,7 +343,7 @@ main {
 
 .info-content .name {
   color: var(--white-2);
-  font-size: 2.0rem;
+  font-size: 1.5rem;
   font-weight: var(--fw-600);
   letter-spacing: -0.25px;
   margin-bottom: 16px;
@@ -352,7 +352,7 @@ main {
 .info-content .title {
   color: var(--white-1);
   background: var(--onyx);
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: var(--fw-400);
   width: max-content;
   padding: 6px 18px;
